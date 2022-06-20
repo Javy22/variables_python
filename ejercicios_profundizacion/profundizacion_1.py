@@ -31,3 +31,28 @@ E) Exponente/Potencia
 
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+
+print('Ingrese por consola el primer número entero a operar:')
+numero_1 = int(input())
+
+print('Ingrese por consola el segundo número entero a operar:')
+numero_2 = int(input())
+# Suma
+suma = (numero_1 + numero_2)
+print ('El resultado de sumar ',numero_1, 'y', numero_2, 'es ',suma)
+
+# Resta
+resta = (numero_1 - numero_2)
+print ('El resultado de restar ',numero_1, 'y', numero_2, 'es ',resta)
+
+# División
+division = (numero_1 / numero_2)
+print ('El resultado de dividir ',numero_1, 'y', numero_2, 'es ',division)
+
+# Multiplicación
+multiplicacion = (numero_1 * numero_2)
+print ('El resultado de multiplicar ',numero_1, 'y', numero_2, 'es ',multiplicacion)
+
+# Exponente/potencia
+exponente = (numero_1 ** numero_2)
+print ('El resultado de la potencia  ',numero_1, 'y', numero_2, 'es ',exponente)

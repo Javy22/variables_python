@@ -38,3 +38,12 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+
+print('Ingrese su nombre:')
+nombre = str(input())
+nombre_minuscula = str.lower(nombre)
+print('nombre en minuscula:', nombre_minuscula)
+nombre_mayuscula = str.upper(nombre)
+print('nombre en mayuscula:', nombre_mayuscula)
+primer_letra =str.capitalize(nombre)
+print('la primera letra del nombre en mayuscula:', primer_letra)
